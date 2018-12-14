@@ -1,5 +1,7 @@
+import './assets/my.css'
 <template>
   <div id="app">
+    <div class="myclass1">你好！</div>
     <img src="./assets/logo.png">
     <router-view/>
     <button class="btn btn-primary">确定</button>
@@ -10,7 +12,7 @@
 <script>
 export default {
   name: 'App'
-}
+};
 </script>
 
 <style>
