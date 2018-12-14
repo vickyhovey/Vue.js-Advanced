@@ -5,6 +5,7 @@ style:组件css样式单 -->
 <template>
   <div class="hello">
     <pre>{{content}}</pre>
+    <h1>Hello World!</h1>
   </div>
 </template>
 
